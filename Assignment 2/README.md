@@ -14,12 +14,19 @@ over time.
 
 some methods in this project: 
 def generate_mock_data(num_tasks=10, num_robots=5): -- generate the background environment
+
 def fitness_function(population, task_durations, task_priorities, robot_efficiencies): -- fitness function to select parent
+
 def select_parents(population, fitness): -- how mating pool is created
+
 def crossover(parents, num_offspring): -- how new generation is developed 
+
 def mutation(offspring, mutation_rate, robot_efficiencies): -- how each selected population is mutated 
+
 def run_genetic_algorithm(task_durations, task_priorities, robot_efficiencies):  -- run from main function and contains all the calls for selection, mutation and crossover
+
 def visualize_assignments_improved(solution, task_durations, task_priorities, robot_efficiencies): -- visualize the grid 
+
 
 run the main function and change some parameter to see different type of result. 
  
